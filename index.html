@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#">GERMÁN GLERIA</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+            <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+            <li>
+              <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
+            </li>
+            <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+            <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/Yo.png" alt="Perfil"/>
+        </div>
+        <h1>GERMÁN GLERIA</h1>
+        <h2>Desarrollador de Videojuegos Diseñador Gráfico</h2>
+        <div class="redes">
+          <a href="https://www.linkedin.com/in/germangleria/" target="_blank"> <i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.behance.net/german_gleria" target="_blank"><i class="fa-solid fa-camera"></i></a>
+          <a href="https://germanjoseg.itch.io/" target="_blank"><i class="fa-solid fa-gamepad"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>SOBRE MI</h2>
+        <p>
+          <span>Hola, soy Germán Gleria.</span> Soy de Misiones, Argentina tengo 31 años, me recibi de Diseñador Gráfico y de la Tecnicatura Universitaria en Desarrollo de Videojuegos. 
+          Actualmente estoy terminando la Licenciatura en Desarrollo de Videojuegos en la UADE. Soy una persona creativa, responsable, compañero, objetivo, detallista, perseverante y siempre dispuesto 
+          a aprender nuevas herramientas y habilidades, que me ayude a crecer como profesional y como persona
+        </p>
+        <div class="fila">
+          <!-- datos personales -->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>Fecha de Nacimiento</strong>
+                09-01-1993
+              </li>
+              <li>
+                <strong>Teléfono</strong>
+                11-73654866
+              </li>
+              <li>
+                <strong>Email</strong>
+                german_gleria@hotmail.com
+              </li>
+              <li>
+                <strong>Dirección</strong>
+                Recoleta, CABA
+              </li>
+              <li>
+                <strong>Cargo</strong>
+                <span>FREELANCE</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- intereses -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJAR</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-camera"></i>
+                <span>FOTOS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+      <div class="contenido-seccion">
+        <h2>HABILIDADES</h2>
+        <div class="fila">
+          <!-- Technical Skill -->
+          <div class="col">
+            <div class="skill">
+              <span>ADOBE ILLUSTRATOR</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>100%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>ADOBE PHOTOSHOP</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>ADOBE AFTER EFFECTS</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>ADOBE INDESIGN</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>COREL DRAW</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>100%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>CSHARP</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Professional Skills -->
+
+          <div class="col">
+            <div class="skill">
+              <span>HTML5 Y CSS</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>50%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>UNITY</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>UNREAL ENGINE</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>AUTODESK MAYA</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>BLENDER</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>ADOBE SUBSTANCE 3D PAINTER</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Idioma Skills -->
+        <div class="contenido-seccion">
+            <h2>IDIOMAS</h2>
+          <div class="fila">
+            <div class="col">
+              <div class="skill">
+                <span>INGLES</span>
+                  <div class="barra-skill">
+                    <div class="progreso">
+                      <span>75%</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skill">
+                <span>PORTUGUES</span>
+                  <div class="barra-skill">
+                    <div class="progreso">
+                      <span>60%</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+      <div class="contenido-seccion">
+        <h2>CURRICULUM</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educación y Cursos</h3>
+            <div class="item izq">
+              <h4>Licenciatura Universitaria en Desarollo de Vidoejuegos</h4>
+              <span class="casa">Universidad Argentina de la Empresa</span>
+              <span class="fecha">En curso</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Tecnicatura Universitaria en Desarollo de Vidoejuegos</h4>
+              <span class="casa">Universidad Argentina de la Empresa</span>
+              <span class="fecha">Completo - 26 de Febrero de 2024</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Carrera de Diseño Gráfico</h4>
+              <span class="casa">Facultad de Arte y Diseño UNAM</span>
+              <span class="fecha">Completo - 20 de Diciembre de 2018</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Curso #SeProgramar de Argentina Programa 4.0</h4>
+              <span class="casa">Universidad Tres de Febrero</span>
+              <span class="fecha">Abril de 2023</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Participante del Global Game Jam 2021</h4>
+              <span class="casa">Universidad Argentina de la Empresa</span>
+              <span class="fecha">Enero de 2022</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Taller introducción al manejo de Cinema 4D</h4>
+              <span class="casa">Facultad de Arte y Diseño UNAM</span>
+              <span class="fecha">Junio - Agosto de 2018</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Curso de animación y motion graphics</h4>
+              <span class="casa">Facultad de Arte y Diseño UNAM</span>
+              <span class="fecha">Junio - Agosto de 2018</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Alumno en el taller virtual en red disur</h4>
+              <span class="casa">Facultad de Arte y Diseño UNAM</span>
+              <span class="fecha">Octubre de 2017</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Expositor en la muestra institucional "Acroma"</h4>
+              <span class="casa">Facultad de Arte y Diseño UNAM</span>
+              <span class="fecha">Diciembre de 2016 - Febrero de 2017</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Asistente al seminario "Comunicación de marca y agenda de difusión"</h4>
+              <span class="casa">Facultad de Arte y Diseño UNAM</span>
+              <span class="fecha">Agosto de 2016</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Asistente en el sexto encuentro latinoamericano de docentes de diseño</h4>
+              <span class="casa">Facultad de Arte y Diseño UNAM</span>
+              <span class="fecha">Junio de 2013</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Curso "Actualización en producción gráfica</h4>
+              <span class="casa">Facultad de Arte y Diseño UNAM</span>
+              <span class="fecha">Mayo de 2012</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Expositor en la muestra institucional "índice Simbólico"</h4>
+              <span class="casa">Facultad de Arte y Diseño UNAM</span>
+              <span class="fecha">Noviembre - Diciembre 2011</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+          </div>
+            <div class="item izq">
+              <h4>4tas Jornadas Internacionales "Diseño de Acá"</h4>
+              <span class="casa">Facultad de Arte y Diseño UNAM</span>
+              <span class="fecha">Septiembre de 2011</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col derecha">
+            <h3>Experiencia de trabajo</h3>
+            <div class="item der">
+              <h4>Diseñador Gráfico</h4>
+              <span class="casa">Salas Staffing</span>
+              <span class="fecha">2023 - 2024</span>
+              <p>
+                Redes sociales - Branding coorporativo - Diseño de pagina web
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Diseñador Gráfico</h4>
+              <span class="casa">Instituto Privado Carlos Linneo</span>
+              <span class="fecha">2020 - 2023</span>
+              <p>
+                Redes sociales - Branding coorporativo - Diseño de pagina web - UX/UI
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Diseñador Gráfico</h4>
+              <span class="casa">Pascualito Barra de Cereal Artesanal</span>
+              <span class="fecha">2016 - 2018</span>
+              <p>
+                Rediseño marca gráfica - Iconografía - Packaging - Etiquetas
+                - Modelado 3D - Animacion - Redes sociales
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+                <h4>Diseñador Gráfico</h4>
+                <span class="casa">A tu boca</span>
+                <span class="fecha">2017 - 2018</span>
+                <p>
+                  Rediseño marca gráfica - Redes sociales - Flyers
+                </p>
+                <div class="conectord">
+                  <div class="circulod"></div>
+                </div>
+              </div>
+              <div class="item der">
+                <h4>Diseñador Gráfico</h4>
+                <span class="casa">Cometas</span>
+                <span class="fecha">2014 - 2016</span>
+                <p>
+                  Redes sociales
+                </p>
+                <div class="conectord">
+                  <div class="circulod"></div>
+                </div>
+              </div>
+            <div class="item der">
+              <h4>Diseñador Gráfico</h4>
+              <span class="casa">Yvyra Retá Jardín Botánico</span>
+              <span class="fecha">2013 - 2014</span>
+              <p>
+                Diseño de marca gráfica - Infografía
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>
+          <a href="PDF/Curriculum Vitae Español - German Gleria.pdf" target="_blank">Descargar CV</a> <i class="fa-solid fa-download"></i> 
+          <span class="overlay"> </span>
+        </button>
+        <button>
+          <a href="PDF/Curriculum Vitae Ingles - German Gleria.pdf" target="_blank">Descargar CV Inglés</a> <i class="fa-solid fa-download"></i> 
+          <span class="overlay"> </span>
+        </button>
+      </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+      <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <img src="img/Sin título-1-03.jpg" alt="Diseño Gráfico" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Packaging y Etiquetas</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Sin título-1-02.jpg" alt="Modelado 3D" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Modelado 3D</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Sin título-1_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Modelado 3D</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/SalasStaffing1.jpg" alt="Diseño Gráfico" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Publicidad</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/SalasStaffing2.jpg" alt="Diseño Gráfico" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Publicidad</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/SalasStaffing3.jpg" alt="Diseño Gráfico" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Publicidad</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Ferlin-Piensas en Mi.jpg" alt="Diseño Gráfico" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Cover</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/CoverMontage.jpg" alt="Diseño Gráfico" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Cover</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/PaginaWeb.jpg" alt="Diseño Gráfico" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Pagina web</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/PaginaWeb2.jpg" alt="Diseño Gráfico" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Pagina web</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Lofi1.jpg" alt="Diseño Gráfico" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Cover</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Lofi2.jpg" alt="Diseño Gráfico" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Cover</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/2 de abril-02-02-02-02-02.jpg" alt="Diseño Gráfico" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Redes sociales</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Dia del Estudiante-07.jpg" alt="Diseño Gráfico" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Redes sociales</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Bolsa 1.jpg" alt="Diseño Gráfico" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Merchandising</p>
+            </div>
+          </div>
+          <div class="galeria">
+            <div class="proyecto">
+              <img src="img/Dia de la Escarapela_Mesa de trabajo 1.jpg" alt="Diseño Gráfico" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Redes sociales</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Dia de la Mujer_Mesa de trabajo 1.jpg" alt="Diseño Gráfico" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Redes sociales</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Barco Post de Instagram.jpg" alt="Diseño Gráfico" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Redes sociales</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/A tu boca_Mesa de trabajo 1.jpg" alt="Diseño Gráfico" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Rediseño Marca Gráfica</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Feed Vale-02.jpg" alt="Diseño Gráfico" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Redes sociales</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Vale icono.jpg" alt="Diseño Gráfico" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Marca gráfica</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/AK47-1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/AK47-2.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/AK47-3.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Pistol1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Pistol2.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Pistol3.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/KnifeCollider1_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/KnifeCollider2_Mesa de trabajo 1_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/KnifeCollider3_Mesa de trabajo 1_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Knife1_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Knife2_Mesa de trabajo 1_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Knife3_Mesa de trabajo 1_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Assets.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Assets2.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Assets3.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Posion1_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Posion2_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Posion3_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Book1_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Book2_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Book3_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Frasco_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Frasco2_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Frasco3_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Moneda1_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Moneda2_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Moneda3_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Pergamino1_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Pergamino2_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Pergamino3_Mesa de trabajo 1.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Bicho.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Escenario.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Escenario2.jpg" alt="Modelado 3D" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Modelado 3D</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <video src="videos/SunnyLand.mp4" alt="videojuego" controls>
+            </div>
+            <div class="proyecto">
+              <video src="videos/Zelda.mp4" alt="videojuego" controls>
+            </div>
+            <div class="proyecto">
+              <video src="videos/Optimizaciondevideojuegos.mp4" alt="videojuego" controls>
+            </div>
+            <div class="proyecto">
+              <video src="videos/GroovyTaxy.mp4" alt="videojuego" controls>
+            </div>
+            <div class="proyecto">
+              <video src="videos/SpaceShooter.mp4" alt="videojuego" controls>
+            </div>
+            <div class="proyecto">
+              <video src="videos/Exploided.mp4" alt="videojuego" controls>
+            </div>
+            <div class="proyecto">
+              <video src="videos/FleshCity.mp4" alt="videojuego" controls>
+            </div>
+            <div class="proyecto">
+              <video src="videos/BattleCity.mp4" alt="videojuego" controls>
+            </div>
+            <div class="proyecto">
+              <video src="videos/Arkanoid.mp4" alt="videojuego" controls>
+            </div>
+            <div class="proyecto">
+              <video src="videos/Animacion.mp4" alt="videojuego" controls>
+            </div>
+            <div class="proyecto">
+              <video src="videos/Shaders2.mp4" alt="videojuego" controls>
+            </div>
+            <div class="proyecto">
+              <video src="videos/Shaders1.mp4" alt="videojuego" controls>
+            </div>
+            <div class="proyecto">
+              <video src="videos/AstroAdventures.mp4" alt="videojuego" controls>
+            </div>
+            <div class="proyecto">
+              <video src="videos/Zombie vs Citizens.mp4" alt="videojuego" controls>
+            </div>
+            <div class="proyecto">
+              <video src="videos/Exodus.mp4" alt="videojuego" controls>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+          <!-- Formulario -->
+          <div class="col">
+            <form action="https://formsubmit.co/german_gleria@hotmail.com" method="POST" >
+            <input type="text" name="name" id="name" placeholder="Tú Nombre" />
+            <input type="text" name="telefónico" id="telefónico" placeholder="Número telefónico" />
+            <input type="email" name="email" id="email" placeholder="Dirección de correo" />
+            <input type="text" name="asunto" id="asunto" placeholder="Asunto" />
+            <textarea
+              name="texto"
+              id="texto"
+              cols="30"
+              rows="10"
+              placeholder="Mensaje"
+            ></textarea>
+            <button>
+              Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+              <span class="overlay"></span>
+            </button>
+            <input type="hidden" name="_next" value="https://germanjoseg.github.io/PaginasWebs/">
+            <input type="hidden" name="_captcha" value="false">
+          </form>
+          </div>
+          
+          <!-- Mapa -->
+          <div class="col">
+            <img src="img/Desktop Screenshot 2023.09.03 - 05.15.07.92.jpg" alt="Mapa" />
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                    Recoleta, CABA
+                </li>
+                <li>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  Celular: 11-73654866
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  Email: german_gleria@hotmail.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+        <a href="https://www.linkedin.com/in/germangleria/" target="_blank"> <i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.behance.net/german_glec86f" target="_blank"><i class="fa-solid fa-camera"></i></a>
+          <a href="https://germanjoseg.itch.io/" target="_blank"><i class="fa-solid fa-gamepad"></i></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
