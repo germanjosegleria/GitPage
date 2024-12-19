@@ -5,6 +5,12 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  user-select: none; /* Deshabilita la selección de texto en toda la página */
+  cursor: default; /* Cambia el cursor por defecto */
+}
+
 html {
   /* me permite deslizar cuando hago clic en los links del menu */
   scroll-behavior: smooth;
@@ -284,6 +290,7 @@ iframe {
   height: 642px; /* Altura del iframe */
   border: none; /* Sin borde para que se vea limpio */
 }
+
 
 /* Estas clases se agregaran dinamicamente mediante illustrator
  */
