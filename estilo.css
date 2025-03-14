@@ -75,6 +75,8 @@ a {
   color: #fff;
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-top: 2.5%;
 }
 .inicio .contenido-banner {
   padding: 20px;
