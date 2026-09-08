@@ -20,6 +20,7 @@ a {
   text-decoration: none;
   color: white;
 }
+
 /* MENU */
 .contenedor-header {
   background: #1e2326;
@@ -116,6 +117,30 @@ a {
   font-size: 20px;
   transition: 0.3s;
 }
+
+.inicio .contenido-banner .redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 35px;
+}
+
+.inicio .contenido-banner .red-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio .contenido-banner .red-social a {
+    margin: 0 5px;
+}
+
+.inicio .contenido-banner .red-social span {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #fff;
+}
+
 .inicio .contenido-banner .redes a:hover {
   background-color: #ac425c;
 }
@@ -124,6 +149,42 @@ a {
   color: #fff;
   padding: 50px 20px;
 }
+
+.malvinas-link {
+    width: 120px;
+    height: 110px;
+    background-color: #252a2e;
+    border-radius: 10px;
+    margin: 15px 0 5px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.malvinas-link i {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.malvinas-link span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 0 10px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.malvinas-link:hover {
+    background-color: #ac425c;
+}
+
 .sobremi .contenido-seccion {
   max-width: 1100px;
   margin: auto;
@@ -141,6 +202,11 @@ a {
 }
 .sobremi .contenido-seccion p span {
   color: #ac425c;
+  font-weight: bold;
+}
+
+.sobremi .contenido-seccion p span2 {
+  color: #4fb9ff;
   font-weight: bold;
 }
 .sobremi .fila {
